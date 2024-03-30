@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+</head>
+<body>
+    <center>
+    <h1> Fale Conosco </h1>
+
+    <form action="#" method="post" name="FrmContato" id="FrmContato" enctype="multipart/form-data" class="contatos" >
+
+
+        <label for="nome"> Nome:  </label>
+        <input type="text" name="nome" id="nome" placeholder="Roberto">
+
+        <br>
+
+        <label for="email"> Email:</label> 
+        <input type="email" name="email" id="email" placeholder="exemplo@gmail.com">
+       
+        <br>
+
+        <label for="fone"> fone</label>
+        <input  type="tel" name="fone" id="fone" placeholder="(xx) xxxx-xxxx">
+        
+        <br>
+
+        <label> Sexo </label>
+        <input type="radio" name="sexo" id="sexoM">
+        <label for="sexoM"> Masculino</label>
+        <input type="radio" name="sexo" id="sexoF">
+        <label for="sexoF"> Feminino</label>
+       
+
+        <br>
+
+        <label for="assunto" > Assunto: </label>
+        <select name="assunto" id="assunto">
+            <option value="0" selected disabled>
+                Selecione um assunto
+
+            </option>
+
+            <option value="sugestao">Sugestões</option>
+            <option value="duvida">Duvídas</option>
+            <option value="reclamacao">Reclamações</option>
+
+
+        </select>
+
+        <br>
+
+        <label for="obs"> Obeservações:</label>
+        <textarea  name="obs" id="obs" cols="50" rows="10"> </textarea>
+        
+
+        <br>
+
+        <input type="submit" value="Enviar" name="enviar"  >
+        
+
+        
+
+
+
+    </form>
+</center>
+</body>
+</html>
